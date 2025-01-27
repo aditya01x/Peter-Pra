@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+/* General */
+@font-face {
+    font-family: 'General';
+    font-weight: 200; /* Light */
+    font-style: normal;
+    src: url('/fonts/GeneralSans-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 300; /* Extralight */
+    font-style: normal;
+    src: url('/fonts/GeneralSans-Extralight.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 400; /* Regular */
+    font-style: normal;
+    src: url('/fonts/GeneralSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 500; /* Medium */
+    font-style: normal;
+    src: url('/fonts/GeneralSans-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 600; /* Semibold */
+    font-style: normal;
+    src: url('/fonts/GeneralSans-Semibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 700; /* Bold */
+    font-style: normal;
+    src: url('/fonts/GeneralSans-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 800; /* Extra Bold */
+    font-style: normal;
+    src: url('/fonts/GeneralSans-Extrabold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'General';
+    font-weight: 900; /* Black */
+    font-style: normal;
+    src: url('/fonts/GeneralSans-Black.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Telma';
+    src: url('/fonts/Telma-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Telma */
+@font-face {
+    font-family: 'Telma';
+    src: url('/fonts/Telma-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Telma';
+    src: url('/fonts/Telma-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Telma';
+    src: url('/fonts/Telma-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Telma';
+    src: url('/fonts/Telma-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Telma';
+    src: url('/fonts/Telma-Variable.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+/* Neue Machina */
+@font-face {
+    font-family: 'NeueMachina';
+    src: url('/fonts/NeueMachina-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}

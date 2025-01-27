@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#loading-bar {
+    background: conic-gradient(#000000 var(--progress, 0%), #e7e7e7 0deg);
+}
+
+@layer utilities {
+    .background-gradient {
+        background: linear-gradient(23deg,
+                rgba(255, 193, 60, 1) 0%,
+                rgba(254, 56, 82, 1) 43%,
+                rgba(222, 15, 174, 1) 85%,
+                rgba(119, 29, 255, 0.9) 100%);
+    }
+
+    .gradient-shadow {
+        box-shadow: 0px 8px 24px rgba(254, 56, 82, 0.4),
+            0px 2px 8px rgba(222, 15, 174, 0.2);
+    }
+}
+
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.reels-cta h1{
+    -webkit-background-clip: text;
+}
